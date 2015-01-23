@@ -7,9 +7,46 @@
 </head>
 <body>
 
+    <div id="impress">
+        <!--THIS IS WHERE YOU START-->
+        <div id="intro" class="step slide">
+            <div class="slide-text">
+                <p> </p>
+                <br />
+                <p>Which Room do you go into?</p>
+                <p><a href="#room1">Room 1</a></p>
+                <p>or</p>
+                <p><a href="#room2">Room 2</a></p>
+            </div>
+        </div>
+        <!--Room 1-->
+        <div id="room1" class="step slide" data-x="1500">
+            <div class="slide-text">
+                <p> </p>
+                <br />
+                <p>Where do you go?</p>
+                <p><a href="#balcony">The Balcony</a></p>
+                <p>or</p>
+                <p><a href="#bathroom">The Bathroom</a></p>
+            </div>
+        </div>
+        <!--Room 2-->
+        <div id="room2" class="step slide" data-x="-1500">
+            <div class="slide-text">
+                <p> </p>
+                <br />
+                <p>Where do you go?</p>
+                <p><a href="#outside">Go Outside</a></p>
+                <p>or</p>
+                <p><a href="#closet">Go into the Closet</a></p>
+            </div>
+        </div>
 
-    <!--JavaScript-->
-    <script src="js/impress.js"></script>
-    <script>impress().init();</script>
+    </div>
+
+
+        <!--JavaScript-->
+        <script src="js/impress.js"></script>
+        <script>impress().init();</script>
 </body>
 </html>
